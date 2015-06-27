@@ -59,4 +59,3 @@ def get_noun_phrase(sentence):
 	blob=TextBlob(sentence,np_extractor=extractor)
 	print blob.noun_phrases
 
-get_noun_phrase("The intelligent boy held an informative conversation with the teacher.")
